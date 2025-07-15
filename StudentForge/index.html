@@ -95,7 +95,13 @@
             <img src="assets/speech.jpg" alt="gallery3" class="rounded w-full md:w-72 h-48 object-cover">
         </div>
     </section>
-
+<script>
+    window.addEventListener('load', function() {
+      if (performance.navigation.type === 1) {
+        window.location.href = 'index.html';
+      }
+    });
+  </script>
 </body>
 
 </html>
